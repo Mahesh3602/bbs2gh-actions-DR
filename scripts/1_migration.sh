@@ -38,7 +38,7 @@ VERBOSE="${VERBOSE:-0}"
 ############################################
 # CLI args
 ############################################
-MAX_CONCURRENT=3
+MAX_CONCURRENT=10
 CSV_PATH="repos.csv"
 OUTPUT_PATH="" # empty -> timestamped file
 
@@ -67,8 +67,8 @@ logv() { if [[ "$VERBOSE" == "1" ]]; then echo -e "[DEBUG] $*"; fi; }
 if [[ -z "${MAX_CONCURRENT}" || ! "${MAX_CONCURRENT}" =~ ^[0-9]+$ ]]; then
   echo -e "\033[31m[ERROR] --max-concurrent must be an integer\033[0m"; exit 1
 fi
-if [[ "${MAX_CONCURRENT}" -gt 20 ]]; then
-  echo -e "\033[31m[ERROR] Maximum concurrent migrations (${MAX_CONCURRENT}) exceeds the allowed limit of 20.\033[0m"
+if [[ "${MAX_CONCURRENT}" -gt 10 ]]; then
+  echo -e "\033[31m[ERROR] Maximum concurrent migrations (${MAX_CONCURRENT}) exceeds the allowed limit of 10.\033[0m"
   exit 1
 fi
 if [[ "${MAX_CONCURRENT}" -lt 1 ]]; then
