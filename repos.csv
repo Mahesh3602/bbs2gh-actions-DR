@@ -1,3 +1,15 @@
 project-key,project-name,repo,github_org,github_repo,gh_repo_visibility
-BBSMIG,bbs-migration-demo,calotracker,ADO-migration-test,calotracker_bbs-pipelinerepo2,private
-BBSMIG,bbs-migration-demo,solid-api,ADO-migration-test,solid-api_bbs-pipelinerepo2,private
+BBSMIG,bbs-migration-demo,test-jun,bbs-migration-test,test-jun,private
+BBSMIG,bbs-migration-demo,test-repo,bbs-migration-test,test-repo,private
+BBSMIG,bbs-migration-demo,Test21,bbs-migration-test,Test21,private
+BBSMIG,bbs-migration-demo,voting_app,bbs-migration-test,voting_app,private
+BBSGHMIG,bbs2gh-migration,bbs2gh-migration,bbs-migration-test,bbs2gh-migration,private
+TESTB,test1,repo3,bbs-migration-test,repo3,private
+TESTB,test1,repo4,bbs-migration-test,repo4,private
+TESTB,test1,repo5,bbs-migration-test,repo5,private
+TESTB,test1,repo6,bbs-migration-test,repo6,private
+TESTB,test1,repo7,bbs-migration-test,repo7,private
+TESTB,test1,repo8,bbs-migration-test,repo8,private
+TESTB,test1,repo9,bbs-migration-test,repo9,private
+TEST,test2,repo1,bbs-migration-test,repo1,private
+TEST,test2,repo2,bbs-migration-test,repo2,private
